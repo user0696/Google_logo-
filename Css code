@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border-bottom: 50px solid #34a853;
+            border-top: 50px solid #ea4335;
+            border-left: 50px solid #fbb605;
+            border-right: 50px solid #4285f4;
+        }
+
+        .logo:before {
+            content: '';
+            position: absolute;
+            top: -155px;
+            right: -155px;
+            border-top: 100px solid transparent;
+            border-bottom: 100px solid transparent;
+            border-left: 100px solid transparent;
+            border-right: 100px solid #fff;
+            transform: rotate(90deg);
+        }
+
+        .logo:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -50px;
+            width: 100px;
+            height: 50px;
+            background: #4285f4;
+            transform: translate(-5px, -20px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+
+    </div>
+</body>
+
+</html>
